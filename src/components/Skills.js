@@ -7,14 +7,14 @@ import github from '../assets/img/github.png';
 import node from '../assets/img/node.png';
 import express from '../assets/img/express.png';
 import firebase from '../assets/img/firebase.png';
-import typescript from "../assets/img/Typescript.png"
-import javascript from "../assets/img/javascript.png"
-import mysql from "../assets/img/Mysql.png"
-import mongo from "../assets/img/mongo.png"
-import html from "../assets/img/html.png"
-import tailwind from "../assets/img/Tailwind.png"
-import css from "../assets/img/css.png"
-import bootstrap from "../assets/img/bootstrap.png"
+import typescript from '../assets/img/Typescript.png';
+import javascript from '../assets/img/javascript.png';
+import mysql from '../assets/img/Mysql.png';
+import mongo from '../assets/img/mongo.png';
+import html from '../assets/img/html.png';
+import tailwind from '../assets/img/Tailwind.png';
+import css from '../assets/img/css.png';
+import bootstrap from '../assets/img/bootstrap.png';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -114,7 +114,7 @@ export const Skills = () => {
                   <img src={mongo} alt="" />
                   <h5>MongoDB</h5>
                 </div>
-              
+
                 <div className="item">
                   <img src={css} alt="" />
                   <h5>CSS</h5>
@@ -125,8 +125,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={bootstrap} alt="" />
-                  <h5>Bootstrap
-                  </h5>
+                  <h5>Bootstrap</h5>
                 </div>
               </Carousel>
             </div>
