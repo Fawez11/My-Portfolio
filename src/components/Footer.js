@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
 // import { MailchimpForm } from './MailchimpForm';
-import fawez from '../assets/img/fawez.png';
+// import fawez from '../assets/img/fawez.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+// import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const Footer = () => {
   return (
@@ -12,7 +12,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
-            <img src={fawez} alt="Logo" />
+            {/* <img src={fawez} alt="Logo" /> */}
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -22,9 +22,9 @@ export const Footer = () => {
               <a href="https://github.com/Fawez11">
                 <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <img src={navIcon3} alt="Icon" />
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>
