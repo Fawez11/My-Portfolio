@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import baladia from "../assets/img/baladia.jpeg";
+import projImg1 from "../assets/img/baladia.jpeg";
 import projImg2 from "../assets/img/piano.jpg";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/travel.jpg";
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,7 +13,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: baladia,
+      imgUrl: projImg1,
     },
     {
       title: "Business Startup",
@@ -28,7 +28,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: baladia,
+      imgUrl: projImg1,
     },
     {
       title: "Business Startup",
